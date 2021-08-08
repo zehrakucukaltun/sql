@@ -1,0 +1,118 @@
+
+--Question1
+
+CREATE TABLE employee (
+id INTEGER PRIMARY KEY ,
+name VARCHAR(50) NOT NULL,
+birthday DATE ,
+email VARCHAR(100)
+
+);
+
+SELECT * FROM employee;
+
+--Question2
+
+-- (Data comes from Mockaroo)
+
+insert into employee (id, name, birthday, email) values (1, 'Camala', '5/27/2021', 'cmcguiness0@fotki.com');
+insert into employee (id, name, birthday, email) values (2, 'Caria', '1/13/2021', 'ctitford1@facebook.com');
+insert into employee (id, name, birthday, email) values (3, 'Dru', '1/19/2021', 'dduxbury2@smh.com.au');
+insert into employee (id, name, birthday, email) values (4, 'Hakim', '12/4/2020', 'hsuttling3@engadget.com');
+insert into employee (id, name, birthday, email) values (5, 'Alix', '10/17/2020', 'asedgmond4@posterous.com');
+insert into employee (id, name, birthday, email) values (6, 'Murry', '7/25/2021', 'mlebell5@reverbnation.com');
+insert into employee (id, name, birthday, email) values (7, 'Mattie', '12/18/2020', 'msmallcombe6@bing.com');
+insert into employee (id, name, birthday, email) values (8, 'Dolph', '7/2/2021', 'dbenini7@squidoo.com');
+insert into employee (id, name, birthday, email) values (9, 'Rawley', '6/13/2021', 'rtiffany8@liveinternet.ru');
+insert into employee (id, name, birthday, email) values (10, 'Hewitt', '5/21/2021', 'hbowmen9@virginia.edu');
+insert into employee (id, name, birthday, email) values (11, 'Pieter', '7/7/2021', 'pduggeta@hubpages.com');
+insert into employee (id, name, birthday, email) values (12, 'Marijn', '12/4/2020', 'mdoftyb@bbc.co.uk');
+insert into employee (id, name, birthday, email) values (13, 'Ambrosio', '4/21/2021', 'ablankmanc@paypal.com');
+insert into employee (id, name, birthday, email) values (14, 'Prentiss', '7/7/2021', 'pmcgoldrickd@discuz.net');
+insert into employee (id, name, birthday, email) values (15, 'Zechariah', '4/4/2021', 'zfrentze@washingtonpost.com');
+insert into employee (id, name, birthday, email) values (16, 'Wes', '8/4/2021', 'wlovelessf@admin.ch');
+insert into employee (id, name, birthday, email) values (17, 'Pietrek', '9/7/2020', 'pwaindg@bluehost.com');
+insert into employee (id, name, birthday, email) values (18, 'Jozef', '11/19/2020', 'jjanseh@artisteer.com');
+insert into employee (id, name, birthday, email) values (19, 'Dunc', '7/23/2021', 'dschlaghi@tripod.com');
+insert into employee (id, name, birthday, email) values (20, 'Layney', '8/26/2020', 'ldrij@imdb.com');
+insert into employee (id, name, birthday, email) values (21, 'Margy', '10/16/2020', 'mtremblotk@soup.io');
+insert into employee (id, name, birthday, email) values (22, 'Jeramie', '4/19/2021', 'jdudbridgel@printfriendly.com');
+insert into employee (id, name, birthday, email) values (23, 'Perkin', '6/14/2021', 'privilism@zdnet.com');
+insert into employee (id, name, birthday, email) values (24, 'Cathe', '9/24/2020', 'ccosseyn@woothemes.com');
+insert into employee (id, name, birthday, email) values (25, 'Roselin', '9/14/2020', 'rblazeyo@dmoz.org');
+insert into employee (id, name, birthday, email) values (26, 'Angelico', '5/7/2021', 'aruiltonp@people.com.cn');
+insert into employee (id, name, birthday, email) values (27, 'Valma', '10/4/2020', 'vdinnegesq@youku.com');
+insert into employee (id, name, birthday, email) values (28, 'Carmina', '4/10/2021', 'carmsteadr@oaic.gov.au');
+insert into employee (id, name, birthday, email) values (29, 'Keelia', '8/8/2020', 'kmarusiks@google.com.hk');
+insert into employee (id, name, birthday, email) values (30, 'Olin', '10/18/2020', 'odennittst@auda.org.au');
+insert into employee (id, name, birthday, email) values (31, 'Gay', '10/13/2020', 'gchessoru@mayoclinic.com');
+insert into employee (id, name, birthday, email) values (32, 'Hakeem', '6/28/2021', 'hcrispv@woothemes.com');
+insert into employee (id, name, birthday, email) values (33, 'Farlie', '7/14/2021', 'ftumultyw@ihg.com');
+insert into employee (id, name, birthday, email) values (34, 'Janaye', '8/23/2020', 'jpennycordx@studiopress.com');
+insert into employee (id, name, birthday, email) values (35, 'Fraser', '11/28/2020', 'ffibbeny@sina.com.cn');
+insert into employee (id, name, birthday, email) values (36, 'Nessi', '6/10/2021', 'ndaubneyz@washingtonpost.com');
+insert into employee (id, name, birthday, email) values (37, 'Reta', '7/2/2021', 'rbalfe10@biblegateway.com');
+insert into employee (id, name, birthday, email) values (38, 'Wendall', '9/3/2020', 'warnke11@webeden.co.uk');
+insert into employee (id, name, birthday, email) values (39, 'Miles', '7/14/2021', 'mhudleston12@dion.ne.jp');
+insert into employee (id, name, birthday, email) values (40, 'Feodora', '4/1/2021', 'flodovichi13@arizona.edu');
+insert into employee (id, name, birthday, email) values (41, 'Andriette', '1/31/2021', 'agiacomi14@purevolume.com');
+insert into employee (id, name, birthday, email) values (42, 'Nichole', '11/23/2020', 'nroly15@go.com');
+insert into employee (id, name, birthday, email) values (43, 'Zsazsa', '2/28/2021', 'zfernandes16@yelp.com');
+insert into employee (id, name, birthday, email) values (44, 'Theresa', '4/11/2021', 'tbernat17@feedburner.com');
+insert into employee (id, name, birthday, email) values (45, 'Evered', '3/28/2021', 'edecruze18@squidoo.com');
+insert into employee (id, name, birthday, email) values (46, 'Loreen', '9/27/2020', 'lwife19@rediff.com');
+insert into employee (id, name, birthday, email) values (47, 'Wallas', '2/28/2021', 'wcrichley1a@xinhuanet.com');
+insert into employee (id, name, birthday, email) values (48, 'Xever', '5/27/2021', 'xlucien1b@paginegialle.it');
+insert into employee (id, name, birthday, email) values (49, 'Sibylle', '9/24/2020', 'ssnalum1c@globo.com');
+insert into employee (id, name, birthday, email) values (50, 'Hestia', '4/12/2021', 'hbaldini1d@cocolog-nifty.com');
+
+
+--Question3
+
+UPDATE employee
+SET name = 'Murry'
+WHERE name LIKE 'C%';
+
+-- (Let's see the results)
+
+SELECT * FROM employee;
+
+UPDATE employee
+SET birthday = '2020-05-28'
+WHERE id = 5 
+RETURNING *;
+
+UPDATE employee
+SET email = '***'
+WHERE name ILIKE '%a';
+SELECT * FROM employee;
+
+UPDATE employee
+SET birthday = '2020-11-03';
+
+UPDATE employee
+SET name = 'Hakime'
+WHERE name = 'Hakim';
+
+
+--Question4
+DELETE FROM employee
+WHERE id = 1;
+
+
+DELETE FROM employee
+WHERE name = 'Dru';
+
+DELETE FROM employee 
+WHERE email LIKE 'd%';
+
+DELETE FROM employee
+WHERE birthday = '2020-05-28'
+RETURNING *;
+
+DELETE FROM employee
+WHERE email = '***' AND 
+name = 'Valma'
+RETURNING *;
+
+SELECT * FROM employee;
