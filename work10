@@ -1,0 +1,24 @@
+
+
+--Question1
+
+SELECT city,
+country
+FROM city
+LEFT JOIN country USING (country_id);
+
+--Question2
+
+SELECT payment_id,
+first_name,
+last_name
+FROM customer c
+RIGHT JOIN payment p ON c.customer_id =p.customer_id;
+
+--Question3
+
+SELECT rental_id,
+c.first_name,
+c.last_name
+FROM rental r
+FULL JOIN customer c ON r.customer_id =c.customer_id;
