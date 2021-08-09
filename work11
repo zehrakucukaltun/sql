@@ -1,0 +1,48 @@
+
+
+--Question1
+
+(SELECT actor.first_name FROM actor 
+)
+UNION 
+(SELECT customer.first_name FROM customer
+);
+
+--Question2
+
+(SELECT actor.first_name FROM actor 
+)
+INTERSECT
+(SELECT customer.first_name FROM customer
+);
+
+--Question3
+
+(SELECT actor.first_name FROM actor 
+)
+EXCEPT
+(SELECT customer.first_name FROM customer
+);
+
+--Question4
+
+(SELECT actor.first_name FROM actor 
+)
+UNION ALL
+(SELECT customer.first_name FROM customer
+);
+
+--
+(SELECT actor.first_name FROM actor 
+)
+INTERSECT ALL
+(SELECT customer.first_name FROM customer
+);
+
+--
+
+(SELECT actor.first_name FROM actor 
+)
+EXCEPT ALL
+(SELECT customer.first_name FROM customer
+);
